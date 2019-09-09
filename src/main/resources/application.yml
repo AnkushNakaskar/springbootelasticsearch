@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: SpringElasticSearch
+  jackson:
+    serialization-inclusion: NON_EMPTY
+  data:
+    elasticsearch:
+      cluster-name: 'elasticsearch_ankushnakaskar'
+      cluster-nodes: 'localhost:9300'
+      repositories:
+        enabled: true
+elasticsearch:
+  index:
+    name: 'my_index'
+  user: 'user'
+project:
+  group: core
+  team: content
+  application: 'SpringGraphQL'
+server:
+  port: 9092
